@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syed Faizan Iftikhar – Computer Science Student</title>
+  <meta name="description" content="Portfolio of a 2nd-year computer science student building small web projects.">
+  <meta name="theme-color" content="#151821">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#home">Syed Faizan Iftikhar</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <p class="hero-hello">Hi, I’m</p>
+        <h1 class="hero-name">Syed Faizan Iftikhar</h1>
+        <p class="hero-role">
+          Computer science student building
+          <span class="rotator" id="rotator" aria-live="polite">responsive web pages</span>
+        </p>
+        <p class="hero-copy">
+          I’m in my second year of B.Tech and I learn best by making things.
+          This page shows the small projects I’ve built so far.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I’m a second-year B.Tech student studying Computer Science at
+              Your College Name. I started with C and Python in my first year,
+              then moved into web development because I enjoy seeing my code
+              turn into something I can open and use.
+            </p>
+            <p>
+              Most of what I know comes from classes, online tutorials and
+              building small projects, like a to-do app and a weather app.
+              I’m still learning, and I’m comfortable reading documentation
+              and debugging my own mistakes.
+            </p>
+            <p>
+              I’m looking for a summer internship where I can work on real
+              code and learn from a team. Outside of studies I play cricket
+              and solve a few practice problems every week.
+            </p>
+          </div>
+
+          <dl class="facts">
+            <div class="fact">
+              <dt>Course</dt>
+              <dd>B.Tech, Computer Science</dd>
+            </div>
+            <div class="fact">
+              <dt>Year</dt>
+              <dd>2nd year</dd>
+            </div>
+            <div class="fact">
+              <dt>College</dt>
+              <dd>Your College Name</dd>
+            </div>
+            <div class="fact">
+              <dt>Looking for</dt>
+              <dd>Internships and team projects</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-intro">What I’ve used in coursework and projects so far.</p>
+
+        <div class="skills-grid">
+          <article class="skill-group">
+            <h3>Web</h3>
+            <ul class="chips">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript basics</li>
+              <li>Responsive design</li>
+              <li>Fetching data from APIs</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3>Programming</h3>
+            <ul class="chips">
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Java basics</li>
+              <li>Data structures (arrays, stacks, linked lists)</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3>Tools</h3>
+            <ul class="chips">
+              <li>Git and GitHub</li>
+              <li>VS Code</li>
+              <li>MySQL basics</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3>Learning now</h3>
+            <ul class="chips">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Algorithms</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-intro">Small projects I built while learning. Each one links to a demo and its code on GitHub.</p>
+
+        <div class="projects-grid">
+          <article class="card">
+            <div class="thumb thumb-paperplane" role="img" aria-label="Preview of the to-do list app"></div>
+            <div class="card-body">
+              <h3>To-Do List</h3>
+              <p>A task list where you can add, tick off and delete tasks. Tasks stay saved after you close the tab.</p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>LocalStorage</li>
+              </ul>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener">Live demo</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb thumb-tideline" role="img" aria-label="Preview of the weather app"></div>
+            <div class="card-body">
+              <h3>Weather App</h3>
+              <p>Type a city name and see its current temperature, humidity and wind speed, fetched from a free weather API.</p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>Fetch API</li>
+                <li>Weather API</li>
+              </ul>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener">Live demo</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb thumb-kiln" role="img" aria-label="Preview of the expense tracker"></div>
+            <div class="card-body">
+              <h3>Expense Tracker</h3>
+              <p>Log daily spending by category and see the running total, built to keep track of my own hostel budget.</p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="card-links">
+                <a href="#" target="_blank" rel="noopener">Live demo</a>
+                <a href="#" target="_blank" rel="noopener">Source code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-intro">
+            Looking for an intern or want to work on a project together?
+            Send me a message and I’ll reply as soon as I can.
+          </p>
+          <ul class="contact-list">
+            <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <p class="error" data-error-for="name" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <p class="error" data-error-for="email" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="error" data-error-for="message" aria-live="polite"></p>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Syed Faizan Iftikhar. Built with HTML, CSS and JavaScript.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
